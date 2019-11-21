@@ -5,7 +5,7 @@
      * viacriadkovy
      * komentar
      */
-    include 'header-new.php';
+    include 'header-novy.php';
 ?>
     <div class="main">
         <p>

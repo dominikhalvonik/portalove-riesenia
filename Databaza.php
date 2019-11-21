@@ -55,9 +55,24 @@ class Databaza
         $query = mysqli_query($this->connection, $sql);
         $images = [];
         while ($row = mysqli_fetch_assoc($query)) {
-            $images[] = $row['url'];
+            $images[] = [
+                'url' => $row['url'],
+                'id' => $row['id']
+            ];
         }
 
         return $images;
+    }
+
+    public function deleteImage($id)
+    {
+        $sql = "DELETE FROM images WHERE id = ".$id;
+        $query = mysqli_query($this->connection, $sql);
+    }
+
+    public function updateImage($id, $url)
+    {
+        $sql = "UPDATE images SET url = '".$url."' WHERE id = ".$id;
+        $query = mysqli_query($this->connection, $sql);
     }
 }
