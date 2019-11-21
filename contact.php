@@ -1,5 +1,5 @@
 <?php
-    include 'header-new.php';
+    include 'header-novy.php';
     if(isset($_POST['submit'])) {
         $contactItems = [];
         if(file_exists('contact.json')) {

@@ -25,7 +25,9 @@ $images = $dbObject->getImages();
         <?php
             foreach ($images as $image) {
                 ?>
-                <img src="<?php echo $image; ?>"><br>
+                <a href="delete-images.php?image-id=<?php echo $image['id']; ?>" title="Vymazat">Vymazat</a><br>
+                <a href="gallery-update.php?image-id=<?php echo $image['id']; ?>" title="Aktualizivat">Aktualizivat</a>
+                <img src="<?php echo $image['url']; ?>"><br>
                 <?php
             }
         ?>
