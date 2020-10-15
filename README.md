@@ -1,2 +1,0 @@
-# portalove-riesenia
-Teaching project
