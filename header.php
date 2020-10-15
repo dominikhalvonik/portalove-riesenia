@@ -1,32 +1,10 @@
-<?php
-    //$nav_items = array('Zaciname s PHP', 'O nas', 'Kontakt');
-    $nav_items = ['Zaciname s PHP', 'O nas', 'Kontakt'];
-
-    $subpage_name = basename($_SERVER['SCRIPT_NAME'], '.php');
-    if ($subpage_name == 'index')
-        $subpage_name = $nav_items[0];
-    elseif ($subpage_name == 'about')
-        $subpage_name = $nav_items[1];
-    else
-        $subpage_name = $nav_items[2];
-?>
-
-<!DOCTYPE html>
-<html lang="sk">
-<head>
-    <meta charset="UTF-8">
-    <title>Portálové riešenia</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header>
-    <h1><?php echo $subpage_name ?></h1>
-
-    <nav>
-        <ul>
-            <li><a <?php if ($subpage_name == $nav_items[0]) echo 'class=active'; ?> href="index.php">Domov</a></li>
-            <li><a <?php if ($subpage_name == $nav_items[1]) echo 'class=active'; ?> href="about.php">O nás</a></li>
-            <li><a <?php if ($subpage_name == $nav_items[2]) echo 'class=active'; ?> href="contact.php">Kontakt</a></li>
-        </ul>
-    </nav>
-</header>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portalove</title>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/specimen/Kumbh+Sans -->
+<link rel="stylesheet" href="fontawesome/css/all.min.css">  <!-- https://fontawesome.com/-->
+<link rel="stylesheet" href="css/magnific-popup.css">       <!-- https://dimsemenov.com/plugins/magnific-popup/ -->
+<link rel="stylesheet" href="css/bootstrap.min.css">        <!-- https://getbootstrap.com/ -->
+<link rel="stylesheet" href="slick/slick.min.css">          <!-- https://kenwheeler.github.io/slick/ -->
+<link rel="stylesheet" href="slick/slick-theme.css">
+<link rel="stylesheet" href="css/templatemo-upright.css">
