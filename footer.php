@@ -6,3 +6,4 @@
 <script src="js/jquery.magnific-popup.min.js"></script> <!-- https://dimsemenov.com/plugins/magnific-popup/ -->
 <script src="slick/slick.min.js"></script>              <!-- https://kenwheeler.github.io/slick/ -->
 <script src="js/templatemo-script.js"></script>
+<script src="js/main.js"></script>

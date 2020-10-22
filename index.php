@@ -410,9 +410,12 @@
                                     Duis fringilla eget purus luctus sodales. Sed auctor odio quis ligula dignissim efficitur vitae vitae quam.
                                 </p>
                             </div>
+                            <div class="form-group tm-text-right">
+                                <button type="submit" id="show" class="btn btn-primary">Show</button>
+                            </div>
                         </div>
                         <div class="mt-5">
-                            <div class="tm-carousel">
+                            <div class="tm-carousel" id="test">
                                 <div class="tm-carousel-item">
                                     <figure class="effect-honey mb-4">
                                         <img src="img/about-01.jpg" alt="Featured Item">
@@ -430,169 +433,8 @@
                                         <h4 class="tm-text-secondary tm-about-subtitle">Founder and CEO</h4>
                                     </div>
                                 </div>
-                                
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-02.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">Jenifer Soft</h3>
-                                        <p>This is a carousel for a list of 10 team members. Each member image hover has 3 social icons.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Managing Director</h4>
-                                    </div>
-                                </div>
 
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-03.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">David Rock</h3>
-                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Financial Officer</h4>
-                                    </div>
-                                </div>
 
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-01.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">Calvin Second</h3>
-                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Senior Director</h4>
-                                    </div>
-                                </div>
-                                
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-02.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">Jenifer Second</h3>
-                                        <p>This is a carousel for a list of 10 team members. Each member image hover has 3 social icons.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Accounting Officer</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-03.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">David Second</h3>
-                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Financial Assistant</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-01.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">Calvin Third</h3>
-                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Designer</h4>
-                                    </div>
-                                </div>
-                                
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-02.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">Jenifer Third</h3>
-                                        <p>This is a carousel for a list of 10 team members. Each member image hover has 3 social icons.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Program Director</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-03.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">David Three</h3>
-                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Financial Assistant</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-01.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">Calvin Four</h3>
-                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Media Partner</h4>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </section>
                 </div>
