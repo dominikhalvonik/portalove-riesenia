@@ -17,15 +17,27 @@ $menuItems = $db->getMenuItems();
         <ul id="tm-main-nav">
             <?php
             foreach ($menuItems as $key => $menuItem) {
-                ?>
-                <li class="nav-item">
-                    <a href="#<?php echo $menuItem['file_path']; ?>>" class="nav-link">
-                        <div class="triangle-right"></div>
-                        <i class="fas <?php echo $menuItem['icon']; ?> nav-icon"></i>
-                        <?php echo $menuItem['meno']; ?>
-                    </a>
-                </li>
-                <?php
+                if ($menuItem['meno'] === 'External') {
+                    ?>
+                    <li class="nav-item">
+                        <a href="<?php echo $menuItem['file_path']; ?>" class="nav-link">
+                            <div class="triangle-right"></div>
+                            <i class="fas <?php echo $menuItem['icon']; ?> nav-icon"></i>
+                            <?php echo $menuItem['meno']; ?>
+                        </a>
+                    </li>
+                    <?php
+                } else {
+                    ?>
+                    <li class="nav-item">
+                        <a href="#<?php echo $menuItem['file_path']; ?>" class="nav-link">
+                            <div class="triangle-right"></div>
+                            <i class="fas <?php echo $menuItem['icon']; ?> nav-icon"></i>
+                            <?php echo $menuItem['meno']; ?>
+                        </a>
+                    </li>
+                    <?php
+                }
             }
             ?>
         </ul>

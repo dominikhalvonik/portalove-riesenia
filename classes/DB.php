@@ -82,4 +82,15 @@ class DB
         $stmt->execute();
         return $stmt->fetchAll(\PDO::FETCH_ASSOC);
     }
+
+    /**
+     * @return array
+     */
+    public function getZamestnanci()
+    {
+        $sql = "SELECT * FROM zamestnanci ORDER BY id";
+        $stmt = $this->connection->prepare($sql);
+        $stmt->execute();
+        return $stmt->fetchAll(\PDO::FETCH_ASSOC);
+    }
 }
